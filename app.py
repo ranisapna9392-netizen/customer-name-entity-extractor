@@ -23,6 +23,9 @@ st.write(
     "locations, dates, contact details, numbers, and more."
 )
 
+if st.session_state.pop("clear_input", False):
+    st.session_state["input_text"] = ""
+
 # User input
 user_text = st.text_area(
     "Enter your text here",
@@ -52,8 +55,8 @@ with col2:
     )
 
 if clear_clicked:
-    st.session_state["input_text"] = ""
     st.session_state.pop("entities", None)
+    st.session_state["clear_input"] = True
     st.rerun()
 
 if extract_clicked:
