@@ -25,3 +25,5 @@ output/
 Thumbs.db
 # Pytest cache
 .pytest_cache/
+
+src/regex_extractor_backup.py
