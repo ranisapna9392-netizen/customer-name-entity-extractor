@@ -1,0 +1,13 @@
+﻿My name is Sapna Rani. I live in Mumbai, Maharashtra, India.
+I work at Nestle as a project coordinator.
+
+I use Python, spaCy, pandas, and Microsoft Excel.
+I attended the Olympics event in Paris, France.
+
+The product is an Apple iPhone 15.
+Its price is ₹ 80,000 and the discount is 25%.
+The package weighs 5 kilograms and the temperature is 28°C.
+
+You can contact me at sapna@example.com or +91-9876543210.
+Visit https://example.com for more information.
+The meeting is scheduled on 18 September 2026 at 10:30 AM.
